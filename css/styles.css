@@ -68,6 +68,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     background-color:transparent;
     color: #31d6bb;
     text-align: center;
+    padding: 0;
+    margin: 0;
     text-shadow: 1px 1px 2px black, 0 0 25px #31d6bb, 0 0 5px #9dffef;
 }
 
