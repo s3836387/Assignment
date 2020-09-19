@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/page.css" rel="stylesheet">
 </head>
 <!--End head-->
 
@@ -67,10 +68,23 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-
+                Page Contents
+                <ol class="container">
+                    <a href="#overview"><li>Overview</li></a>
+                    <a href="#motivation"><li>Motivation</li></a>
+                    <a href="#description"><li>Description</li></a>
+                    <a href="#aim"><li>Aim</li></a>
+                    <ul>
+                        <a href="#goal1"><li>Goal 1</li></a>
+                        <a href="#goal2"><li>Goal 2</li></a>
+                        <a href="#goal3"><li>Goal 3</li></a>
+                        <a href="#goal4"><li>Goal 4</li></a>
+                        <a href="#goal5"><li>Goal 5</li></a>
+                    </ul>
+                </ol>
                 
                 <!-- Heading-->
-                <h2 class="section-heading">Overview</h2>
+                <h2 class="section-heading" id="overview">Overview</h2>
                 <p> VR/AR technology is on the rise, and along with it is the gaming experience. Moreover, with the
                     current
                     pandemic, we could see the high demand for this kind of technology. Some of the reasons why this
@@ -81,7 +95,7 @@
                     is
                     composed of gamers, we have decided on our project idea to be a VR suit ( or haptic suit).
                 </p>
-                <h2 class="section-heading">Motivation</h2>
+                <h2 class="section-heading" id="motivation">Motivation</h2>
                 <p> Our main motivation for this project is for gaming usage. However, this technology could be used
                     in
                     many ways. For example, medical rehabilitation, the suit pulse could provide valuable feedback for
@@ -89,7 +103,7 @@
                     to
                     provide better treatment for the patient. Additionally, the suit could also be use in the animation
                     field, where animator could use the suit to track and create animation faster.</p>
-                <h2 class="section-heading">Description</h2>
+                <h2 class="section-heading" id="description">Description</h2>
                 <p>
                     A haptic suit is a suit or a set of components that lets the user experience the VR world more
                     immersively. The suit would have some kind of motion sensors on it for tracking the user movements.
@@ -116,14 +130,14 @@
                     to process all the movement and manage the suit function.
 
                 </p>
-                <h2 class="section-heading">Aim</h2>
+                <h2 class="section-heading" id="aim">Aim</h2>
                 <p>
                     Our aim for this project is to finish phase 1 (or parts of it), which is the full-body motion
                     detection function. Currently, most VR technology only allows the user to use their upper body
                     (hands and head). Because of that, our main goal is to develop a suit that allows the user to move
                     freely in the virtual world while wearing it (upper-body and lower-body). And to achieve this goal,
                     we would have to divide our project into sub goals. </p>
-                <h3>Goal 1: Choose a motion detection method</h3>
+                <h3 class="section-heading" id="goal1">Goal 1: Choose a motion detection method</h3>
                 <p> First and foremost, we will need to decide what kind of motion detection method we want to
                     use. The reason this goal is significant to the project is everything we are going to develop will
                     be based on which path we took. There are several types of method that big companies are using, like
@@ -131,22 +145,26 @@
                     motion (like Vive Cosmos and Oculus Rift); or Non-optical VR tracking, use electromechanical sensors
                     such as gyroscopes to track motion (the PS4 controller) or Myo armband which tracks electrical
                     impulse from the muscles.</p>
-                <p> Goal 2: After we have decided which method, we want to base our project on, we will start to develop
+                    <h3 class="section-heading" id="goal2">Goal 2: Develop upper-body and arm components</h3>
+                <p> After we have decided which method, we want to base our project on, we will start to develop
                     the arm and upper body motion detection. Whichever method we choose to use, our aim in this goal is
                     to use that motion detection method and detect our arm motion. And since arm motion detection is the
                     most basic function in all the methods, it will be beneficial for us to achieve this goal early on.
                     Moreover, it would also help us to familiarize ourselves with the technology we choose.</p>
-                <p> Goal 3: Our third goal is to develop the lower body component of the suit and connect it with the
+                    <h3 class="section-heading" id="goal3">Goal 3: Develop lower-body component and connection</h3>
+                <p> Our third goal is to develop the lower body component of the suit and connect it with the
                     upper body component. The reason this goal seems longer than the previous goals is the extra step of
                     connecting to the upper body component. Moreover, this task could be a bit challenging since we have
                     to make sure that the lower component works smoothly (no misinterpretation, no conflict) with the
                     upper component. Furthermore, assuming we have already achieved the previous goals, the motion
                     detection function of the lower body component will be just like the upper body component.</p>
-                <p> Goal 4: Our fourth goal is to develop the hand gesture detection function. Because of how many
+                    <h3 class="section-heading" id="goal4">Goal 4: Develop hand gesture detection</h3>
+                <p> Our fourth goal is to develop the hand gesture detection function. Because of how many
                     gestures our hand can produce, this would probably be one of the most challenging components.
                     Furthermore, our hand is the most important tool on our body, so this function must run smoothly and
                     accurately.</p>
-                <p> Goal 5: Our final goal is to make sure that everything will work smoothly with each other. Before we
+                    <h3 class="section-heading" id="goal5">Goal 5: Refinement</h3>
+                <p> Our final goal is to make sure that everything will work smoothly with each other. Before we
                     can move on to the next phase of our project, we want to make sure that the motion tracking function
                     of the suit is working as intended. However, we are going to refine our motion tracking function to
                     an extent as not everything will work perfectly, and we cannot work on it forever. Therefore, the
